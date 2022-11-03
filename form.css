@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.header-section {
+  text-align: center;
+  padding-bottom: 60px;
+}
+.header-section p {
+  color: #6f6f6f;
+  font-size: 17px;
+}
+h2:after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 3px;
+  background: #008374;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.info-container {
+  background-color: #008374;
+  padding: 20px;
+  border-radius: 10px 0 0 10px;
+  /* background-color: var(--color-primary); */
+  height: 100%;
+  padding: 30px 20px;
+  border-radius: 10px 0 0 10px;
+  box-shadow: 0px 2px 25px rgb(0 0 0 / 10%);
+  box-shadow: 0px 2px 25px rgb(0 0 0 / 10%);
+}
+.info-item {
+  width: 100%;
+  background-color: #009282;
+  margin-bottom: 25px;
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.form-wrapper {
+  display: flex;
+}
+
+.contact-from {
+  width: 70%;
+  background: #fff;
+  box-shadow: 0px 2px 25px rgb(0 0 0 / 10%);
+  padding: 30px 20px;
+  border-radius: 0 10px 10px 0;
+}
+
+.row {
+  display: flex;
+}
+.input-filed {
+  
+  width: 100%;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  box-sizing: border-box;
+  padding: 12px 15px;
+
+  border: 1px solid #ced4da;
+}
+.form-group {
+  margin-top: 30px;
+}
+textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+  margin-bottom: 16px;
+  resize: vertical;
+  overflow: hidden;
+}
+button {
+  border: 0;
+  padding: 14px 45px;
+  color: #fff;
+
+  background: #008374;
+  border-radius: 50px;
+}
+.btn {
+  text-align: center;
+  margin-top: 20px;
+}
+.social-form {
+  width: 30%;
+}
+h4 {
+  font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+p {
+  margin-bottom: 0;
+  font-size: 14px;
+}
+.pl-0 {
+  padding-left: 0;
+}
+.item:last-child {
+  margin-bottom: 0;
+}
+.input-wrapper{
+  width: 100%;
+  padding: 3px;
+}
+@media screen and (max-width: 600px) {
+  .row {
+    display: block;
+  }
+  .social-form {
+    width: 100%;
+    
+  }
+  .form-wrapper {
+    display: block;
+  }
+  .contact-from{
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 0;
+  }
+  .info-container{
+    border-radius: 0;
+  }
+}
