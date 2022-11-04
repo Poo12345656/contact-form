@@ -16,12 +16,12 @@ h2 {
   position: relative;
 }
 
-.header-section {
+.heading-section {
   text-align: center;
   padding-bottom: 60px;
   margin-top: 47px;
 }
-.header-section p {
+.heading-section p {
   color: #6f6f6f;
   font-size: 17px;
 }
@@ -94,7 +94,7 @@ textarea {
   resize: vertical;
   overflow: hidden;
 }
-button {
+.btn button {
   border: 0;
   padding: 14px 45px;
   color: #fff;
@@ -131,7 +131,6 @@ p {
 }
 .card{
   width: 300px;
-  height: 350px;
   border: 1px solid #ececec;
   margin: 0 auto;
   text-align: center;
@@ -166,8 +165,43 @@ img {
 }
 .card-section {
   display: flex;
-  
 }
+.social-icon {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.card-wrapper {
+  margin-top: 52px;
+  margin-bottom: 20px;
+}
+a {
+  color: #a2a2a2;
+  border-radius: 50%;
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #bbbbbb;
+}
+.feq-content {
+  width: 30%;
+  padding: 20px;
+}
+.feq-content h3{
+  font-weight: 400;
+  font-size: 34px;
+}
+.feq-content p{
+  font-size: 15px;
+  color: #6c757d;
+}
+
+
+
 @media screen and (max-width: 600px) {
   .row {
     display: block;
@@ -186,5 +220,12 @@ img {
   }
   .info-container{
     border-radius: 0;
+  }
+  .card{
+    width:100%;
+
+  }
+  .card-section {
+    display: block;
   }
 }
